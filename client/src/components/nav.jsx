@@ -1,3 +1,4 @@
+import logo from '../assets/SLT-NEBULA-HOME.png'
 
 export default function Navbar() {
     return (
@@ -10,7 +11,7 @@ export default function Navbar() {
               <a class="mr-5 text-cyan-50 hover:text-blue-500">Contact</a>
             </nav>
             <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-            <img  class="w-80" src="https://raw.githubusercontent.com/Sevinda-Herath/NIT-Esport/refs/heads/main/images/logos/SLT-NEBULA-HOME.png?token=GHSAT0AAAAAADA7XVRAKD3P6FIKD5BE4W2SZ7WLS5A" alt="Nebula Logo" />
+            <img  class="w-80" src={logo} alt="Nebula Logo" />
             </a>
             <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
               <button class="inline-flex items-center bg-indigo-600 text-cyan-50 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 hover:text-indigo-500 rounded text-base mt-4 md:mt-0">Login
