@@ -1,13 +1,7 @@
 export default function Register() {
     return(
         <section>
-            <div class="max-w-4xl max-sm:max-w-lg mx-auto p-6 mt-6">
-      <div class="text-center mb-12 sm:mb-16">
-        <a href="javascript:void(0)"><img
-          src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-44 inline-block' />
-        </a>
-        <h4 class="text-slate-600 text-base mt-6">Sign up into your account</h4>
-      </div>
+      <div class="max-w-4xl max-sm:max-w-lg mx-auto p-6 mt-6">
 
       <form>
         <div class="grid sm:grid-cols-2 gap-8">

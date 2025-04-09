@@ -8,7 +8,8 @@ import Home from './pages/home'
 import User from './pages/user'
 import About from './pages/about'
 import Rules from './pages/rules'
-
+import Contact from './pages/contact'
+import Register from './pages/register'
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
             <Route path="/UserProfile" element={<User />} />
             <Route path="/AboutUs" element={<About />} />
             <Route path="/Rules" element={<Rules />} />
-
+            <Route path="/Contact" element={<Contact />} />
+`            <Route path="/Register" element={<Register />} /> 
 
             {/* Add more routes here if needed */}
           </Routes>
