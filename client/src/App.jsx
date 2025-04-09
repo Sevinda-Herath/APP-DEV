@@ -6,6 +6,9 @@ import Nav from './components/nav'
 import Footer from './components/footer'
 import Home from './pages/home'
 import User from './pages/user'
+import About from './pages/about'
+import Rules from './pages/rules'
+
 
 const App = () => {
   return (
@@ -17,6 +20,10 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/UserProfile" element={<User />} />
+            <Route path="/AboutUs" element={<About />} />
+            <Route path="/Rules" element={<Rules />} />
+
+
             {/* Add more routes here if needed */}
           </Routes>
         </main>

@@ -1,4 +1,3 @@
-import hero1 from "../assets/pngwing.com.png";
 import banner1 from "../assets/NebulaEsports2_0.jpg";
 import esportlogo from "../assets/Untitled.jpeg";
 
