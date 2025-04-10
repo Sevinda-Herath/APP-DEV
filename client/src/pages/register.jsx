@@ -1,6 +1,18 @@
 export default function Register() {
     return (
       <section>
+      <div class="mb-20"></div>
+        <div class="container px-5  mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-1">
+            <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Register Now</h1>
+            <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0"></p>
+          </div>
+        </div>
+        </div>
       <div className="max-w-4xl max-sm:max-w-lg mx-auto p-6 mt-6">
         <form>
         <div className="grid sm:grid-cols-2 gap-8">
@@ -145,7 +157,7 @@ export default function Register() {
           type="button"
           className="mx-auto block py-3 px-6 text-sm font-medium tracking-wider rounded text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
           >
-          Sign up
+          Register
           </button>
         </div>
         </form>
